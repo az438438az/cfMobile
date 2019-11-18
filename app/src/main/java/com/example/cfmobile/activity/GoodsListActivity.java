@@ -13,7 +13,7 @@ import com.example.cfmobile.adapter.GoodsListAdapter;
 import com.example.cfmobile.R;
 import com.example.cfmobile.common.BaseActivity;
 import com.example.cfmobile.http.entity.GoodsEntity;
-import com.example.cfmobile.http.persenter.GoodsPresenter;
+import com.example.cfmobile.http.presenter.GoodsPresenter;
 
 import java.util.ArrayList;
 import java.util.List;

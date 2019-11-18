@@ -11,7 +11,7 @@ import com.example.cfmobile.R;
 import com.example.cfmobile.common.BaseActivity;
 import com.example.cfmobile.http.ProgressDialogSubscriber;
 import com.example.cfmobile.http.entity.MemberEntity;
-import com.example.cfmobile.http.persenter.MemberPresenter;
+import com.example.cfmobile.http.presenter.MemberPresenter;
 import com.example.cfmobile.utils.SystemConfig;
 
 import butterknife.BindView;

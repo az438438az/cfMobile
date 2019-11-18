@@ -16,7 +16,7 @@ import com.example.cfmobile.R;
 import com.example.cfmobile.common.BaseFragment;
 import com.example.cfmobile.http.ProgressDialogSubscriber;
 import com.example.cfmobile.http.entity.CategoryEntity;
-import com.example.cfmobile.http.persenter.CategoryPresenter;
+import com.example.cfmobile.http.presenter.CategoryPresenter;
 
 import java.util.ArrayList;
 import java.util.List;
