@@ -4,6 +4,7 @@ package com.example.cfmobile.common;
 import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.os.Handler;
 
 import com.example.cfmobile.R;
 import com.example.cfmobile.http.HttpMethods;
@@ -17,8 +18,10 @@ import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 
 public class MobileShopApp extends Application {
     public static Handler handler = new Handler();
+
     private static Context sContext;
     @Override
+
     public void onCreate() {
         super.onCreate();
         sContext = getApplicationContext();
